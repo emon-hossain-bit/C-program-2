@@ -9,7 +9,7 @@ int main () {
         count++;
         i++;
     }
-    for(int i=1;i<=count;i++){
+    for(int i=1;i<count;i++){
         if(arr[i]-arr[i-1]==2){
             if(arr[i]!=arr[i-1]+1){
                 printf("%d\n",arr[i]-1);
