@@ -14,7 +14,7 @@ int swapfirlasdigit(int n);
 void palindrome(int n,int reverse);
 int GCD(int a,int b);
 int LCM(int a,int b);
-void concatenatestr(char firstring[],char secstring[])
+void concatenatestr(char firstring[],char secstring[]);
  
 int main(){
     int n;
