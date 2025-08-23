@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <windows.h>
+#include <stdlib.h>
 
 int main() {
     int c,t;
@@ -93,9 +93,9 @@ int main() {
     strcpy(string[9][5], "https://timesofindia.indiatimes.com/etimes");
 
     //Launching the URL
-    char url[100];
+    char url[300];
     strcpy(url, string[c][t]);
-    char command[256];
+    char command[300];
     sprintf(command, "start %s", url);
     system(command);
 
